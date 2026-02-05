@@ -1,2 +1,2 @@
-# ReactClassVs17
-repositório inicial de aulas React
+# React Class - VS17
+## Repositório inicial de aulas React
