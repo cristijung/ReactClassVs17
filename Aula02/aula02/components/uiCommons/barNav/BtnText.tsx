@@ -1,8 +1,15 @@
+import Link from "next/link";
+import './btnText.css';
 
-export default function BtnText() {
+interface BtnTextProps {
+    texto: string;
+    href: string;
+}
+
+export default function BtnText({ texto, href }: BtnTextProps) {
     return(
-       <>
-       <p>Btn</p>
+       <>     
+       <Link href={href} className="btn-custom">{texto}</Link>
        </>
     );
 }
